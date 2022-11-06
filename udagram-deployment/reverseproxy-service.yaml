@@ -7,10 +7,8 @@ metadata:
 spec:
   ports:
   - port: 8080
-    name:  port1
+    name: '8080'
     protocol: TCP
-  - port: 8100
-    name:  port2
-    protocol: TCP
+    targetPort: 8080
   selector:
     run: reverseproxy
