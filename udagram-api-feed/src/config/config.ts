@@ -7,7 +7,7 @@ export const config = {
   'aws_region': 'us-east-1',
   'aws_profile': 'default',
   'aws_media_bucket': 'project3-748012026617-dev',
-  'url': 'http://a38d73007e0854029b32442335515273-839905590.us-east-1.elb.amazonaws.com:8100',
+  'url': 'http://ae4cb3089552d4879ba98645e92079ad-855998215.us-east-1.elb.amazonaws.com:8100',
   'jwt': {
     'secret': 'testing',
   },
