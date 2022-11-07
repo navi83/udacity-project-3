@@ -9,7 +9,7 @@ spec:
   - port: 8100
     name: '8100'
     protocol: TCP
-    targetPort: 8100
+    targetPort: 80
   selector:
     run: frontend
     type: LoadBalancer
